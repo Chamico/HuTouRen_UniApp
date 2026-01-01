@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/wifi/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/ble/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "height": "50px",
+	    "fontSize": "24px",
+	    "iconWidth": "24px",
+	    "spacing": "3px",
+		"list": [
+	      {
+	        "pagePath": "pages/wifi/index",
+	        "text": "wifi"
+	      },
+		  {
+		    "pagePath": "pages/ble/index",
+		    "text": "ble"
+		  },
+	      {
+	        "pagePath": "pages/mine/index",
+	        "text": "我的"
+	      }
+	    ]	
+	},
+	"uniIdRouter": {}
+}
